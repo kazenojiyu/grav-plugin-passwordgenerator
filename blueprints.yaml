@@ -1,0 +1,60 @@
+name: Password Generator
+version: 1.0.1
+description: A password generator plugin
+icon: key
+author:
+  name: Sébastien Gandossi
+  email: sebastien.gandossi@gmail.com
+homepage: https://github.com/kazenojiyu/grav-plugin-passwordgenerator
+demo: https://www.sebastien-gandossi.fr/services/generateur-mots-de-passe
+keywords: grav, plugin, security, password, generator
+bugs: https://github.com/kazenojiyu/grav-plugin-passwordgenerator/issues
+docs: https://github.com/kazenojiyu/grav-plugin-passwordgenerator/blob/develop/README.md
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+
+    built_in_css:
+      type: toggle
+      label: Use built in CSS
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+
+    built_in_js:
+      type: toggle
+      label: Use built in JavaScript
+      highlight: 1
+      default: 1
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+
+    content_position:
+      type: toggle
+      label: Place content before or after form      
+      default: 0
+      highlight: 0
+      options:
+        0: PLUGIN_PASSWORD_GENERATOR.BEFORE
+        1: PLUGIN_PASSWORD_GENERATOR.AFTER
+      validate:
+        type: bool

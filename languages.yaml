@@ -1,0 +1,35 @@
+en:
+  PLUGIN_PASSWORD_GENERATOR:
+    NUMBER_PASSWORD: Number of passwords
+    NUMBER_CHAR: Number of characters
+    TYPE_CHAR: Type of characters
+    TYPE_CHAR_LOWERCASE: Lowercase (abc[...]xyz)
+    TYPE_CHAR_UPPERCASE: Uppercase (ABC[...]XYZ)
+    TYPE_CHAR_NUMBERS: Numbers (0123456789)
+    TYPE_CHAR_SPECIALS: "Specials (.,;:+=!?&amp;$#%@{}[]()*')"
+    STRENGTH_VERY_LOW: "Password strength: Very low"
+    STRENGTH_LOW: "Password strength: Low"
+    STRENGTH_MEDIUM: "Password strength: Medium"
+    STRENGTH_STRONG: "Password strength: Strong"
+    BUTTON: Generate passwords
+    RESULTS: Password generation results
+    BEFORE: Before
+    AFTER: After
+
+fr:
+  PLUGIN_PASSWORD_GENERATOR:
+    NUMBER_PASSWORD: Nombre de mots de passe
+    NUMBER_CHAR: Nombre de caractères
+    TYPE_CHAR: Type de caractères
+    TYPE_CHAR_LOWERCASE: Minuscules (abc[...]xyz)
+    TYPE_CHAR_UPPERCASE: Majuscules (ABC[...]XYZ)
+    TYPE_CHAR_NUMBERS: Chiffres (0123456789)
+    TYPE_CHAR_SPECIALS: "Spéciaux (.,;:+=!?&amp;$#%@{}[]()*')"
+    STRENGTH_VERY_LOW: "Force du mot de passe : Très faible"
+    STRENGTH_LOW: "Force du mot de passe : Faible"
+    STRENGTH_MEDIUM: "Force du mot de passe : Moyen"
+    STRENGTH_STRONG: "Force du mot de passe : Fort"
+    BUTTON: Générer les mots de passe
+    RESULTS: Résultats de la génération de mots de passe
+    BEFORE: Avant
+    AFTER: Après
